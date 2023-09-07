@@ -1,0 +1,95 @@
+@media screen and (max-width:1024px){
+    .profile_base{
+        width: 100%;
+    }
+    .profile_wrap{
+        padding: 0;
+        padding-top: 10px;
+    }
+    .login_div{
+        width: 80%;
+    }
+}
+@media screen and (max-width:992px){
+    
+}
+@media screen and (max-width:768px){
+    .left_panel{
+        width: 60px;
+    }
+    .right_panel{
+        width: calc(100vw - 60px);
+    }
+    .left_panel_desktop {
+        width: 250px;
+    }
+    .right_panel_desktop{
+        width: calc(100vw - 250px);
+    }
+    .sidde_copyright{
+        display: none;
+    }
+    .sidde_copyright_ani{
+        display: block !important;
+    }
+    .logo_full {
+        display: none ;
+    }
+    .logo_full_hide {
+        display: block;
+    }
+    .logo_icon{
+        display: block;
+    }
+    .logo_icon_hide {
+        display: none;
+    }
+}
+@media screen and (max-width:576px){
+    .left_panel{
+        width: 0px;
+    }
+    .right_panel{
+        width: calc(100vw - 0px);
+    }
+    .left_panel_desktop {
+        width: 220px;
+    }
+    .right_panel_desktop{
+        width: calc(100vw - 220px);
+    }
+    .notification{
+        margin-right: 0px;
+    }
+    .top_user_icon span{
+        display: none;
+    }
+    .top_user{
+        padding-right: 0px;
+    }
+    .myhed h3{
+        float: none;
+        display: block;
+        padding-bottom: 20px;
+    }
+    .save_top{
+        float: none;
+    margin: 0 10px;
+    display: inline-block;
+    }
+    .create_top{
+        float: none;
+    margin: 0 10px;
+    display: inline-block;
+    }
+    .login_div{
+        width: 90%;
+    }
+   .login_logo{
+       min-height: initial;
+       margin-bottom: 30px;
+   }
+   .login_content{
+    min-height: initial;
+   }
+}
